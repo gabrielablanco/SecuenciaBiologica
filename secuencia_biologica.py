@@ -36,7 +36,7 @@ def imprimir(posicion):
     sec_aux = np.random.choice(cadenaBiologica, 150)
     i = 0
     for x in range (150):
-        if (x >= posicion and x <= (posicion+30)):
+        if (x >= posicion and x <= (posicion+29)):
             sec_aux[x] = sec2[i]
             i += 1
         else:
